@@ -7,6 +7,12 @@ describe('My Test Suite', () => {
 
     })
 
+    it('Go to the site', () => {
+        cy.get(':nth-child(1) > .view > label')
+
+    })
+
+
     it('Check existing to do list', () => {
         //Different ways of checking Pay electric bill ine
         cy.contains('Pay electric bill').should('be.visible')
