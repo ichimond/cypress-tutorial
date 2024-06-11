@@ -1,6 +1,7 @@
 /// <reference types="cypress" />
 
 // This is a test comment to show git actions
+// This is another comment
 
 // Welcome to Cypress!
 //
